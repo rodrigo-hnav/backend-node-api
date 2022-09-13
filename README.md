@@ -54,12 +54,41 @@ Las peticiones GET /api/products se obtiene un arreglo de todos los productos
 Las peticiones GET /api/productsbyname/{name} se obtienen todas las coicidencias del campo name
 
 **Parametros**
-* name: cadena de texto a comparar
+* name: texto a comparar
 
 
+## GET Listar productos de una categoria
+Las peticiones GET /api/productbycategory/{category} se obtienen los productos de una categoria
+
+**Parametros**
+* category: id de la categoria 
 
 
+## GET Listar productos ordenados por precio
+Las peticiones GET /api/productbyorderprice/{order} se obtienen los productos ordenados por precio 
 
+**Parametros**
+* order: keyword asc o desc 
+
+
+## GET Listar productos de una categoria ordenados por precio
+Las peticiones GET /api/productbyorderpricecategory/{id}&{order} se obtienen los productos de una categoria ordenados porpprecio
+
+**Parametros**
+* category: id de la categoria 
+* order: keyword asc o desc 
+
+
+## GET Listar productos filtrdos por nombre y ordenados por precio
+Las peticiones GET /api/productsbynamepriceorder/{name}&{order} se obtienen los productos filtrados por nombre ordenados por precio
+
+**Parametros**
+* order: keyword asc o desc 
+* name: texto a comparar
+
+
+## GET Listar categorias
+Las peticiones GET /api/categorys se obtienen todas las categorias
 
 
 
