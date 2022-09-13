@@ -51,8 +51,9 @@ Las peticiones GET /api/products se obtiene un arreglo de todos los productos
 
 
 ## GET Listar productos por nombre 
-Las peticiones GET /api/productsbyname/{name} se obtienen todas las coicidencias del campo name 
-    **Parametros**
+Las peticiones GET /api/productsbyname/{name} se obtienen todas las coicidencias del campo name
+
+**Parametros**
 * name: cadena de texto a comparar
 
 
